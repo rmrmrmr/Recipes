@@ -1,4 +1,4 @@
-class FoodsController < ApplicationController
+class RecipesController < ApplicationController
   def index
   end
 
@@ -6,6 +6,9 @@ class FoodsController < ApplicationController
   end
 
   def create
+  end
+
+  def show
   end
 
   def destroy
