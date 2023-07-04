@@ -74,4 +74,8 @@ group :test do
   gem "webdrivers"
 end
 
+# Use Devise for User Authentication
 gem 'devise'
+
+# Use Rubocop as Rails Linters
+gem 'rubocop', '>= 1.0', '< 2.0'
